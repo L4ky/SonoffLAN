@@ -1,0 +1,39 @@
+{
+  "config": {
+    "abort": {
+      "reauth_successful": "Riautenticazione eseguita con successo"
+    },
+    "error": {
+      "exists": "Questo account è già configurato",
+      "template": "{error}"
+    },
+    "step": {
+      "user": {
+        "description": "Inserisci le credenziali del tuo [eWeLink account](https://www.ewelink.cc/en/)",
+        "data": {
+          "username": "Email o telefono (inserisci un valore qualsiasi per modalità DIY)",
+          "password": "Password (lascia vuoto per modalità DIY)"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "data": {
+          "mode": "Modalità (auto è consigliata per la maggior parte degli utenti)",
+          "homes": "Case (lascia deselezionato per la casa \"corrente\")",
+          "debug": "Pagina di Debug (Integrazioni > Menu > Problemi noti)"
+        }
+      }
+    }
+  },
+  "system_health": {
+    "info": {
+      "version": "Versione",
+      "cloud_online": "Dispositivi Cloud online",
+      "local_online": "Dispositivi Locali online",
+      "debug": "Pagina di Debug"
+    }
+  }
+}
